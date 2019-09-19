@@ -3,9 +3,9 @@
 ## Learning Goals
 
 - Use a class variable to keep track of every instance of a class that is
-  created.
+  created
 - Write a class method to access the list of all instances of a class, stored in
-  a class variable.
+  a class variable
 
 ## Introduction
 
@@ -42,7 +42,7 @@ Code your solution in `lib/dog.rb`, using the test error messages from running
 
 - Now that we've gotten these methods written out, it is time do a bit of
   refactoring. Rather than pushing `self` into the `@@all` variable inside of
-  `#initialize`, we're extract this action into its own method. Call this method
+  `#initialize`, we're extracting this action into its own method. Call this method
   `#save`. The method should handle the task of pushing `self` into `@@all`.
   Once written, update your code in `#initialize` so that it uses `#save`.
 
